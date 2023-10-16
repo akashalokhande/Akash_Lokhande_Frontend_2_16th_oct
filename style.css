@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.table-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+table {
+  border: 2px solid black;
+  text-align: center;
+  font-size: larger;
+}
+
+.main-table {
+  width: 50%;
+  height: 60%;
+}
+
+.padding-table {
+  padding:1px;
+}
+
+.nested-table {
+  width: 100%;
+}
+
+.nested-table-1-td {
+  width: 19rem;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nested-table-3-td {
+  padding: 0px 12px;
+}
+
+.nested-table-4-td {
+  color: white;
+  background-color: black;
+}
+
+tr,
+td,
+th {
+  border: 2px solid black;
+}
